@@ -7,9 +7,23 @@ This is still a Proof-of-Concept (POC) implementation, so most features are not 
 
 ty :relieved: :anger:
 
-### Notes 
-
 ![wow image](img/image.png) 
+
+### Build Instruction
+
+easy way:
+
+```terminal
+uv run main.py
+```
+
+hard way:
+
+```terminal
+do your research with uv
+```
+
+### Notes 
 
 - Senders (banks) converts local currency to XRP
 - XRP over Ripple (software company) to destination country 
