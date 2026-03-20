@@ -32,7 +32,7 @@ China Endpoint:
 ├── CN USDC/CNYe holders: 70% YES (40% x 70% = 28%)
 ├── TOTAL: 67% → USDC → CNY
 
-wow done! :+1:
+wow done! 
 ```
 
 ```
