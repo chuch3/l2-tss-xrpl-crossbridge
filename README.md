@@ -9,6 +9,8 @@ ty :relieved: :anger:
 
 ### Notes 
 
+![wow image](img/image.png) 
+
 - Senders (banks) converts local currency to XRP
 - XRP over Ripple (software company) to destination country 
 - RippleNet: network behind the xCurrent 
