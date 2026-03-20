@@ -19,8 +19,18 @@ NUM_CNY_BANKS = 3800
 
 def main():
     print()
-    print("=" * 80)
-    print("POC L2 MPC-TSS Stablecoin Bridge via Testnet Faucet Wallet")
+
+    print(
+        """
+         ▄▄▄▄▄▄▄                           ▄▄ ▄▄▄▄▄▄▄  
+        ███▀▀▀▀▀                           ██ ▀▀▀▀████
+        ███      ████▄ ▄███▄ ▄█▀▀▀ ▄█▀▀▀   ██    ▄██▀ 
+        ███      ██ ▀▀ ██ ██ ▀███▄ ▀███▄   ██  ▄███▄▄▄
+        ▀███████ ██    ▀███▀ ▄▄▄█▀ ▄▄▄█▀   ██ ████████ :)
+        """
+    )
+
+    print("\nPOC L2 MPC-TSS Stablecoin Bridge via Testnet Faucet Wallet")
     print("=" * 80)
 
     # User input
