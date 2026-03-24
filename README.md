@@ -11,16 +11,8 @@ ty :relieved: :anger:
 
 ### Build Instruction
 
-easy way:
-
 ```terminal
-uv run main.py
-```
-
-hard way:
-
-```terminal
-do your research with uv
+uv run streamlit run ui.py
 ```
 
 ### Notes 

@@ -9,5 +9,6 @@ dependencies = [
     "cryptography>=46.0.5",
     "ecdsa>=0.19.1",
     "polars>=1.39.0",
+    "streamlit>=1.55.0",
     "xrpl-py>=4.5.0",
 ]
