@@ -1,7 +1,11 @@
 # l2-tss-xrpl-crossbridge 
 
+Supporting cross-border transactions with minimizing transactional fees, governance and nostro accounts.
+
+## Description
+
 Layer-2 MPC-TSS Stablecoin Quorum (Decentralization) over base Layer-1 XRPL (Verfication and Security) to replace UNL's Governance
-with direct control by public banks + Stablecoin holders.
+with direct control by public banks + Stablecoin holders. 
 
 This is still a Proof-of-Concept (POC) implementation, so most features are not viable in real-world production.
 
@@ -29,21 +33,20 @@ uv run streamlit run ui.py
 
 ```
 Malaysia Endpoint:
-├── 14/20 banks approve (60% x 70% = 42%)
-├── MY USDC/e-MYR holders: 65% vote YES (40% x 65% = 26%)
-├── TOTAL: 68% → MYR → USDC
+|-- 14/20 banks approve (60% x 70% = 42%)
+|-- MY USDC/e-MYR holders: 65% vote YES (40% x 65% = 26%)
+|-- TOTAL: 68% → MYR → USDC
 
 XRPL Bridge (Neutral): USDC transfers (2s)
 
 China Endpoint: 
-├── 13/20 banks approve (60% x 65% = 39%)
-├── CN USDC/CNYe holders: 70% YES (40% x 70% = 28%)
-├── TOTAL: 67% → USDC → CNY
+|-- 13/20 banks approve (60% x 65% = 39%)
+|-- CN USDC/CNYe holders: 70% YES (40% x 70% = 28%)
+|-- TOTAL: 67% → USDC → CNY
 
 wow done! 
-```
 
-```
+Blockchain Architecture:
 Layer 2: - BSQ Quorums (Banks + Stablecoin Voters)
          - TSS Group Signature (1.5s per side)
 
